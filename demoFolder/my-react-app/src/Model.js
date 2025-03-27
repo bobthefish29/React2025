@@ -5,7 +5,7 @@ export const Model = (props) => {
             <div className="modal">
                 <p>Did you compleate this task?</p>
                 <button onClick={() => props.dissModel()} className="btn btn-highlight">Cancel</button>
-                <button onClick={() => props.dissModel()} className="btn">Confirm</button>
+                <button onClick={() => props.dissModel()} className="btn">Confirm!</button>
             </div>
             <div onClick={()=> props.dissModel()} className="backdrop"></div>
         </>
