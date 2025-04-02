@@ -1,15 +1,15 @@
 import './App.css';
-import Todo from './Todo';
+
+
+import SignUpForm from './FormExample'
+
+
 
 function App() {
   return (
     
-    <div className="todo-container">
-    <div className="card">
-      <Todo></Todo>
-    </div>
-    
-  </div>
+    <SignUpForm></SignUpForm>
+
   );
 }
 
