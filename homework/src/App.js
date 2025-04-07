@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { useState } from 'react';
+
+
+import SignUpForm from './form.js';
 
 function App() {
+
+
+  const [formDisplay, setFormDisplay] = useState(false);
+
+  const clearForm = () =>{
+    setFormDisplay(false)
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className='formDisplay'>
+        {/* <button onClick={console.log("hi")}>Display Form</button> */}
+        <button className='assignmentMakeButton' onClick={()=>{setFormDisplay(true)}}>Add new assignment</button>
+        {formDisplay && <SignUpForm clearFormDisplay={clearForm}></SignUpForm>}
+      </div>
     </div>
   );
 }
