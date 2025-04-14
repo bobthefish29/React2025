@@ -19,6 +19,7 @@ useEffect(()=>{} , []);
 
 // this will run when the property changers, so when the values changes
 useEffect(()=>{} , [someStateValue, prompt.name]);
+//useEffect(()) => {code to run}, [myDependency]);
 
 //this will run when the component is distroyed, or eneded
 useEffect(()=>{

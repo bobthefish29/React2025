@@ -1,0 +1,25 @@
+
+
+.wholeForm{
+    padding-bottom: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    width: 200px;
+    align-items: center;
+}
+
+.wholeForm input{
+    width: 60%;
+    margin: 5px;
+}
+
+.buttonClear{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.errorDisplay{
+    color:red;
+}
