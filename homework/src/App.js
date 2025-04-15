@@ -1,27 +1,26 @@
 import './App.css';
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 
 
-import { TotalItems } from './MyAwesomeComponent';
+import { MyAwesomeComponent  } from './MyAwesomeComponent';
 
 // import SignUpForm from './form.js';
 
 function App() {
 
-  const [formDisplay, setFormDisplay] = useState(false);
-
-  const clearForm = () =>{
-    setFormDisplay(false)
-  }
+  // const [formDisplay, setFormDisplay] = useState(false);
+  // const clearForm = () =>{
+  //   setFormDisplay(false)
+  // }
 
   return(
-    // this is where the component will go
+    // this is where the component will go for my 
     <>
-      <div>Temp</div>
-      <TotalItems></TotalItems>
+      <MyAwesomeComponent ></MyAwesomeComponent >
     </>
   );
 
+  // this is the signup form,
   // return (
   //   <div>
   //     <div className='formDisplay'>
