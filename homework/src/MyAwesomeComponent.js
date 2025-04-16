@@ -1,30 +1,16 @@
-export const Button = (props) =>{}
-
-
-export const Text = (props) =>{}
-
-
-export const Box = (props) =>{
-
-
+import Box from "./components/Box";
+import Button from "./components/Button";
+import Text from "./components/Text";
+// this is the whole conponent
+export const MyAwesomeComponent = () =>{
+    function makeFunOfYou(){
+        alert("HAHAHA, You really though that was free RAM. I have your ip now.");
+    }
     return(
-        <div className={`defult ${props.size}`}>
-            This is a box with {props.size}
-        </div>
-    );
-}
-// <Box size="small" isRound={true}>Small box</Box>
-// const Box = (props) => {
-//   return <div className={`box ${props.size} ${props.isRound ? 'roundCorners':''} `}>{props.children}</div>;
-// };
-
-export const TotalItems = () =>{
-    return(
-        <>
-            <Box size="large"></Box>
-            <Box size="small"></Box>
-            <Box size="mid"></Box>
-        </>
+        <Box size="boxLarge">
+            <Text size="mediumText" color="red">Click this button to download FREE RAM</Text>
+            <Button color="lightgreen" function={() => makeFunOfYou()} >Download</Button>
+        </Box>
     );
 
 }

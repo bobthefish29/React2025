@@ -1,21 +1,51 @@
+html{
+  height: 100%;
+}
+
 body{
   background-color: gray;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+
 }
 
+.default{
+  background-color: black;
+}
 
-.formDisplay{
-  margin-left: 300px;
-  margin-top: 200px;
+.smallText{
+  font-style: 1rem;
+}
+
+.mediumText{
+  font-size: 2rem;
+}
+
+.largeText{
+  font-size: 3rem;
+}
+
+.box{
+  background-color: #45b3e0;
   display: flex;
   flex-direction: column;
-  max-width: 600px;
   justify-content: center;
   align-items: center;
+  max-width: 400px;
+  padding: 30px;
 }
 
-.assignmentMakeButton{
-  color: white;
-  background-color: blue;
-  height: 30px;
-  border-radius: 15px;
+.boxSmall{
+  width: 100px;
+}
+
+.boxMedium{
+  width: 200px;
+}
+
+.boxLarge{
+  width: 300px;
 }
