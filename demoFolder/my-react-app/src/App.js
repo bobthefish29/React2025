@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './App.css';
+import './cssFolder/App.css';
 import FetchingData from './components/FetchingData';
 import PostingData  from './components/PostingData';
 
