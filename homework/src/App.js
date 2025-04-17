@@ -4,7 +4,6 @@ import './App.css';
 
 import { MyAwesomeComponent  } from './MyAwesomeComponent';
 
-// import SignUpForm from './form.js';
 
 function App() {
 
