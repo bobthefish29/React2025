@@ -1,21 +1,25 @@
 import './cssFolder/App.css';
-// import React, { useState } from 'react';
+import { useState } from 'react';
 
 
-import { MyAwesomeComponent  } from './MyAwesomeComponent';
+// import { MyAwesomeComponent  } from './MyAwesomeComponent';
+
+import FetchingData from './useFunctions/featchData';
 
 
 function App() {
 
-  // const [formDisplay, setFormDisplay] = useState(false);
-  // const clearForm = () =>{
-  //   setFormDisplay(false)
-  // }
+  const [formDisplay, setFormDisplay] = useState(false);
+
+  const clearForm = () =>{
+    setFormDisplay(false)
+  };
 
   return(
     // this is where the component will go for my 
     <>
-      <MyAwesomeComponent ></MyAwesomeComponent >
+      {/* <MyAwesomeComponent ></MyAwesomeComponent > */}
+      {formDisplay && <FetchingData />}
     </>
   );
 
