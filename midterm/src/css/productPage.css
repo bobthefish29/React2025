@@ -1,0 +1,34 @@
+.productPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.backButton{
+    margin-top: 30px;
+}
+
+
+.productPageButton{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin: 10px;
+}
+.productPageImageHolder{
+    padding: 5px;
+    width: 80px;
+    height: 80px;
+}
+.productPageImage{
+    width: 100%;
+    height: 100%;
+}
+
+.productPageText{
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
