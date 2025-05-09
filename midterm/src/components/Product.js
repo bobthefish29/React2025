@@ -45,19 +45,19 @@ const Product = () => {
     }
 
     return (
-        <Box name="productDescriptionHolder">
-            <Box name="imageHolder"><Image image={data.image} alt={data.title}></Image></Box>
-            <Box name="descriptionHolder">
-                <Text name="productText textMid">Name: <br />{data.title}</Text>
-                <Text name="productText textSmall">Price: ${data.price}</Text>
+        <Box Name="productDescriptionHolder">
+            <Box Name="imageHolder"><Image image={data.image} alt={data.title}></Image></Box>
+            <Box Name="descriptionHolder">
+                <Text Name="productText textMid">Name: <br />{data.title}</Text>
+                <Text Name="productText textSmall">Price: ${data.price}</Text>
 
-                <Text name="productText">
+                <Text Name="productText">
                     {StarRating(data.rating.rate)}
                     Rating: {data.rating.rate} / 5 (Reply's: {data.rating.count} )
 
                 </Text>
-                <Text name="productText">Catagory: {data.category}</Text>
-                <Text name="productTextDescription">Description:<br></br> {data.description}</Text>
+                <Text Name="productText">Catagory: {data.category}</Text>
+                <Text Name="productTextDescription">Description:<br></br> {data.description}</Text>
             </Box>
         </Box>
     );

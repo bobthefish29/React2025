@@ -8,7 +8,6 @@ import Error from '../components/Error';
 
 
 const ProductPage = () => {
-
     const { data, error, loading } = useFetchData('products');
     const navigate = useNavigate();
     const { id } = useParams();
@@ -48,7 +47,7 @@ const ProductPage = () => {
                 {data?.map((product) =>
                     <button key={product.id} id={product.id} onClick={(e) => { changeProduct(e) }} className="productPageButton">
                         <div className="productPageImageHolder"><Image image={product.image} name="productPageImage"/></div>
-                        <Text id={product.id} name="productPageText">{product.title}</Text>
+                        <Text Id={product.id} Name="productPageText">{product.title}</Text>
                     </button>
                 )}
                 </>

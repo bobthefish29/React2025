@@ -1,6 +1,8 @@
+import '../css/box.css';
+
 const Box = (p) =>{
     return(
-        <div className={p.name}>
+        <div className={p.Name} >
             {p.children}
         </div>
     )
