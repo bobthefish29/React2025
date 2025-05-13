@@ -1,13 +1,10 @@
 
 
-
-
 const Button = (p) => {
-
     return (
-        <div className={theme === themes.dark ? 'button-dark' : 'button'} onClick={p.Click}>
-            {label}
-        </div>
+        <button className={p.Name} onClick={p.Click} style={{ backgroundColor: p.BackGround, color: p.FontColor}}>
+            {p.children}
+        </button>
     );
 };
 
