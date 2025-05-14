@@ -1,7 +1,6 @@
 const Text = (p) =>{
     return(
-        <p className={p.name} style={{color: p.color}} id={p.id}>{p.children}</p>
+        <p className={p.Name} style={{color: p.Color}} id={p.Id}>{p.children}</p>
     );
 }
-
 export default Text;

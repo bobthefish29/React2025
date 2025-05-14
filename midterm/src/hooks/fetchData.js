@@ -7,7 +7,6 @@ const useFetchData = (url) => {
     const [data, setData] = useState();
     const [error, setError] = useState('');
     const [loading, setLoading] = useState(true);
-
     useEffect(() => {
         const getData = async () => {
             // trys to get the data, if it can it sets the data to data, than unloads the program
@@ -20,10 +19,8 @@ const useFetchData = (url) => {
                 setLoading(false);
             }
         };
-
         getData();
     }, [url]);
-
     return { data, error, loading }
 }
 export default useFetchData;
