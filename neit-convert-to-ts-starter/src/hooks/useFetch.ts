@@ -3,10 +3,10 @@ import axios from 'axios';
 
 const baseURL = 'http://localhost:3000';
 
-export const useFetch = (url) => {
+export const useFetch = (url: string) => {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState('');
+  const [error, setError] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {

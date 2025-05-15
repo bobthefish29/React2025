@@ -1,7 +1,7 @@
 interface Props {
-  description: string;
+  description?: string;
   image: string;
-  width: number;
+  width?: number;
 }
 
 
