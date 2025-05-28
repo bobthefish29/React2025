@@ -1,0 +1,44 @@
+.animalList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.petRecored {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.imageHolder {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.petPhoto {
+    width: 100%;
+    height: 100%;
+
+}
+
+.textHolder {
+    text-align: start;
+    font-size: 1.5vw;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between;    */
+}
+.textLeftHolder{
+    padding: 0px;
+    margin-right: 5vw ;
+    width: 200px;
+    max-width: 200px;
+}

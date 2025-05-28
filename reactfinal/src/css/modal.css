@@ -1,0 +1,19 @@
+.modal-backdrop{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    justify-Content: center;
+    align-Items: center;
+    z-index: 1000;
+}
+
+.modalHolder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

@@ -1,0 +1,45 @@
+.detailedPetPage{
+    margin-top: 50px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.detailedPetInfo{
+    background-color: red;
+
+}
+
+
+
+.detailTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.petNameText{
+    padding-left: 20px;
+}
+
+.petSexAgeHolder{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.detailbottom{
+    margin: 10px;
+}
+
+.modal{
+    width: 400px;
+    height: 300px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
