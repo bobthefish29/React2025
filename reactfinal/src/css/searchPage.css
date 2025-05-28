@@ -1,0 +1,13 @@
+.searchPage{
+    height: 100%;
+    overflow: scroll;
+    text-align: center;
+}
+
+.searchPage::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+
+.searchButton{
+    margin-top:30px;
+}

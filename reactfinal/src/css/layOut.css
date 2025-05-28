@@ -1,0 +1,49 @@
+
+.nav nav{
+    display: flex;
+    align-items: center;
+    justify-content:first baseline;
+    height: 50px;
+}
+
+.navLink{
+    font-size: 28px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.navLink:hover{
+    font-size: 35px;
+}
+
+.firstNavLink{
+    margin-left: 10px;
+}
+
+.content{
+    overflow: scroll;
+    height: 90.8vh;
+}
+
+.content::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+
+
+
+footer{
+    position: bottom;
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.AdoptapetImage{
+
+    width: 200px;
+}
+
+.petLogo{
+    width: 100%;
+}
